@@ -1,0 +1,964 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+
+/* header section starts here */
+
+.navbar-nav .nav-link {
+  font-size: 19px;
+  font-weight: 500;
+  color: #001041;
+  margin: 7px;
+  text-transform: uppercase;
+  font-family: "Cambay", sans-serif;
+}
+
+.serh i {
+  color: #001041;
+  font-size: 23px;
+  margin: 16px;
+}
+
+.header-container {
+  margin-bottom: 21px;
+}
+
+.pri-btn {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  background-color: #ff5e14;
+  padding: 17px 30px 13px;
+  transition: 0.5s all ease;
+  font-family: "Cambay", sans-serif;
+}
+
+.pri-btn:hover {
+  background-color: #001041;
+  color: #fff;
+}
+
+.dropdown .dropdown-menu:hover {
+  transition: 0.5s all ease;
+  display: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
+}
+.me {
+  display: n;
+  color: #252525;
+  font-size: 17px;
+  padding: 12px 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  overflow: hidden;
+  font-family: "Cambay", sans-serif;
+}
+
+/* serviec section starts here */
+
+.serviec-body {
+  background-image: url(./img/page-banner\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.serviec-body::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  top: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.serviec-title h1 {
+  font-size: 64px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+}
+
+.serviec-title-1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff5e14;
+}
+
+.serviec-title-2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* serviec section eds here */
+
+/* What offer section starts here */
+
+.offer-heading {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: auto;
+}
+
+.offer-card {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 39px;
+  position: relative;
+}
+
+.offer-title-1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ff5e14;
+}
+
+.offer-title-2 {
+  font-size: 43px;
+  width: 51%;
+  font-weight: 700;
+}
+
+.offer-title-3 {
+  font-size: 18px;
+  color: gray;
+  font-weight: 500;
+}
+
+.offer-card i {
+  font-size: 60px;
+  color: #ff5e14;
+}
+
+.overlay-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.offer-card:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.overlay-img {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* What offer section ends here */
+
+/* THE RENOVATING section starts here   */
+
+.revovating-body {
+  background-image: url(./img/pricing-cta-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.revovating-body::before {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  height: 100%;
+  background: #001659;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.renovating-title h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.renovating-btn {
+  line-height: 1px;
+  padding: 28px 45px;
+  display: inline-block;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-right: 30px;
+  margin-top: 25px;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.renovating-btn:hover {
+  background-color: #ff5e14;
+  color: #fff;
+  border: none;
+}
+
+.renovating-icon i {
+  font-size: 41px;
+  margin-right: 20px;
+  overflow: hidden;
+  color: #ff5e14;
+}
+
+.contact-info {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.contact-title {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* THE RENOVATING section ends here */
+
+.Work-body {
+  width: 100%;
+  height: auto;
+}
+
+.work-title-1.right {
+  text-align: right;
+}
+
+.single-best-featured {
+  margin-top: 50px;
+}
+
+.work-title-1.right .icon {
+  float: right;
+  overflow: hidden;
+  font-size: 60px;
+  color: #ff5e14;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.work-title-2 .content-text {
+  overflow: hidden;
+}
+
+.content-text h5 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.content-text p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.work-title-2 .icon {
+  float: left;
+  overflow: hidden;
+  font-size: 60px;
+  color: #ff5e14;
+  margin-right: 20px;
+}
+
+.center-img img {
+  margin-top: 86px;
+}
+
+/* Smart Pricing  section starts here */
+
+.smaty-body {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: auto;
+
+}
+
+.pricing-heading h2 {
+  font-size: 67px;
+  font-weight: 700;
+}
+
+.pricing-heading span {
+  color: #ff5e14;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.pricing-card {
+  background-color: #fff;
+  border-color: #fff;
+  padding: 40px;
+  border: 1px solid #eef0f4;
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 20px 60px rgb(13 22 55 / 10%);
+  width: 100%;
+  height: auto;
+}
+
+.pricing-title h6 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.pricing-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff5e14;
+}
+
+.pricing-text span {
+  font-size: 18px;
+  display: block;
+  padding: 6px;
+  font-weight: 500;
+}
+
+.pricing-btn {
+  padding: 19px;
+  margin-top: 17px;
+  width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid #ebedf2;
+  transition: all 0.5s ease;
+  font-weight: 800;
+}
+
+.pricing-btn:hover {
+  background-color: #ff5e14;
+  color: #fff;
+}
+
+.good-btn {
+  padding: 19px;
+  margin-top: 17px;
+  width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid #ebedf2;
+  transition: all 0.5s ease;
+  background-color: #ff5e14;
+  color: #fff;
+  font-weight: 800;
+}
+
+/* Smart Pricing  section ends here */
+
+
+.faq-funfact-section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+
+.faq-funfact-section::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  background-color: #001659;
+  width: 100%;
+  height: 60%;
+  content: "";
+  z-index: -1;
+}
+
+.faq-wrapper {
+  position: relative;
+}
+
+.faq-accordion .accordion {
+  list-style-type: none;
+  counter-reset: css-counter 0;
+  padding: 30px;
+  background-color: #fff;
+  border-left: 1px solid #EBEDF2;
+  border-bottom: 1px solid #EBEDF2;
+}
+
+.faq-accordion .accordion .accordion-item:first-of-type {
+  padding-top: 0;
+}
+.faq-accordion .accordion .accordion-item {
+  border: 0;
+  border-radius: 0;
+  counter-increment: css-counter 1;
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+}
+.accordion-item:first-of-type {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.accordion-item {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.faq-accordion .accordion .accordion-item::before {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  content: "";
+  border: 1px dashed #d4d4d5;
+  width: 1px;
+  height: 100%;
+  z-index: -1;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.faq-accordion .accordion .accordion-item .accordion-header {
+  font-size: inherit;
+  line-height: inherit;
+  position: relative;
+  z-index: 1;
+}
+.accordion-header {
+  margin-bottom: 0;
+}
+
+
+.faq-accordion .accordion .accordion-item .accordion-header .accordion-button::before {
+  content: counter(css-counter);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #ebedf2;
+  border-radius: 50px;
+  color: #FF5E14;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  left: 0;
+}
+
+.accordion-button::after{
+  display: none;
+}
+
+.faq-accordion .accordion .accordion-item .accordion-header .accordion-button {
+  padding-left: 70px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #001659;
+  overflow: hidden;
+}
+
+.faq-accordion .accordion .accordion-item .accordion-collapse .accordion-body {
+  padding-left: 70px;
+}
+
+.single-fun-fact h2 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.single-fun-fact{
+  margin-top: 109px;
+  margin-bottom: 75px;
+}
+
+
+.video-popup-wrapper {
+  height: 557px;
+}
+.bg-center {
+  background-position: center;
+}
+.bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.video-play-btn .play-video {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-color: #FFF;
+  color: #FF5E14;
+  line-height: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  -webkit-animation: playVideo infinite 3.5s;
+  animation: playVideo infinite 3.5s;
+  display: inline-block;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.video-play-btn .play-video:hover {
+  color: #001659;
+  -webkit-box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+
+/* footer section starts here */
+
+.footer-hading {
+  background-color: #001659;
+  color: #fff;
+}
+
+.footer-header-1 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.footer-icon i {
+  color: #ff5e14;
+  font-size: 34px;
+}
+
+.footer-container h2 {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.footer-body ul li {
+  font-size: 18px;
+  padding: 6px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.footer-body ul li:hover {
+  padding-left: 20px;
+}
+
+form input {
+  border: none;
+  width: 84%;
+  padding: 20px;
+}
+
+.form-cotnac {
+  position: relative;
+}
+
+.form-btn-2 {
+  background-color: #ff5e14;
+  width: 84%;
+  margin-top: 19px;
+  padding: 15px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.form-icon i {
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  line-height: 60px;
+  left: 2px;
+  color: #ff5e14;
+  top: 3px;
+}
+
+.form-btn-2:hover {
+  background-color: #001041;
+  color: #fff;
+}
+
+.footer-logo {
+  position: relative;
+}
+
+.form-title-1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.form-text {
+  margin-top: 13px;
+}
+
+.form-title-2 {
+  font-size: 18px;
+  font-weight: 900;
+  color: #001041;
+}
+
+.footer-text-style {
+  background-color: #ff5e14;
+  padding: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.footer-title-snice p {
+  font-size: 17px;
+  font-weight: 400;
+  width: 81%;
+}
+
+.social-media-icon a {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 23px;
+  color: #001659;
+  display: inline-block;
+  margin-left: 10px;
+  transition: all 0.5s ease;
+}
+
+.social-media-icon a:hover {
+  background-color: #001041;
+  color: #fff;
+}
+
+.footer-buttom {
+  background-color: #001659;
+  width: 100%;
+  height: 20vh;
+}
+
+.footer-new{
+  background-color: #fff;
+  padding: 43px;
+}
+
+.footer-one{
+  font-size: 17px;
+  font-weight: 700;
+  color: black !important;
+}
+
+.footer-two{
+  font-size: 17px;
+  font-weight: 700;
+  color: black !important;
+}
+
+.bu{
+  color: var(--bs-orange);
+}
+
+/* footer section ends here */
+
+
+@media (max-width:600px) {
+  .pri-btn{
+    display: none;
+  }
+  .serviec-title h1{
+    
+    font-size: 35px;
+
+  }
+
+  .serviec-title-1{
+    font-size: 15px;
+  }
+
+  .serviec-title-2{
+    font-size: 15px;
+  }
+
+  .offer-card i{
+    font-size: 47px;
+  }
+
+  .offer-card-1{
+    
+    font-size: 19px;
+
+  }
+
+  .offer-card-3{
+    font-size: 15px;
+    width: 83%;
+  }
+
+  .renovating-title h1{
+    font-size: 30px;
+    width: 91%;
+  }
+
+  .renovating-btn{
+    font-size: 13px;
+    padding: 21px 27px;
+    font-weight: 900;
+  }
+
+  .contact-info{
+    font-size: 19px;
+  }
+  .footer-container h2{
+    font-size: 21px;
+  }
+
+  .footer-header-1{
+    font-size: 16px;
+  }
+
+  .footer-body ul li{
+    font-size: 15px;
+  }
+
+  .pricing-heading h2{
+    font-size: 26px;
+  }
+}
+
+
+@media (max-width:992px) {
+  .offer-main{
+      width: 100%;
+  height: 142vh;
+  }
+
+  .nav-btn .he-btn{
+      font-size: 12px;
+      padding: 17px 17px 16px;
+  }
+
+  .build-title-1{
+      font-size: 40px;
+      margin-top: 108px;
+  }
+
+  .bulid-titl-two{
+      font-size: 16px;
+  }
+
+  .bulid-title-three{
+      font-size: 16px
+  }
+
+  .build-header-2 i{
+      font-size: 13px;
+  }
+
+  .pricing-cta-wrapper .pricing-contents h1{
+      font-size: 27px;
+  }
+
+  .pricing-cta-wrapper .pricing-contents a{
+      font-size: 12px;
+      padding: 17px 17px 16px;
+  }
+
+  .icon-fu i{
+      font-size: 27px;
+  }
+
+  .text-star{
+      
+  font-size: 14px;
+
+  }
+
+  .number-title{
+      font-size: 15px;
+  }
+
+  .content-text h5{
+      font-size: 18px;
+
+  }
+
+  .content-text p{
+      font-size: 13px;
+  }
+
+  .single-best-featured.right .icon{
+      font-size: 32px;
+  }
+
+  .single-best-featured .icon{
+      font-size: 32px;
+  }
+
+  .smart-title-one{
+      
+  font-size: 14px;
+
+  }
+
+  .smart-title-two{
+      
+  font-size: 26px;
+
+  }
+
+  .smart-man{
+      width: 100%;
+      height: 178vh;
+  }
+
+  .basic-po{
+      font-size: 14px;
+  }
+
+  .basic-title-one{
+      
+  font-size: 15px;
+
+  }
+
+  .bulid-titl-two{
+      font-size: 20px;
+  }
+
+  .basic-heading-one span{
+      
+  font-size: 15px;
+
+  }
+
+  .car-btn{
+      font-size: 14px;
+  padding: 18px;
+  }
+
+  .car-one-btn{
+      font-size: 14px;
+  padding: 18px;
+  }
+
+  .single-fun-fact h2{
+      font-size: 33px;
+  }
+
+  .single-fun-fact h3{
+      
+  font-size: 21px;
+  margin-top: 12px;
+
+  }
+
+  .phone-main h2{
+      
+  font-size: 18px;
+
+  }
+
+  .phone-title-one{
+      font-size: 16px;
+  }
+
+  .phone-title-two{
+      font-size: 16px;
+  }
+
+  .nav-item{
+      font-size: 17px;
+  }
+
+  .social-media-icon i{
+    
+  margin-right: 3px;
+  padding: 11px;
+  font-size: 19px;
+
+  }
+
+}
+
+@media (max-width:768px) {
+  .smart-man{
+      
+  width: 100%;
+  height: 246vh;
+
+  }
+  .footer-one{
+      font-size: 14px;
+  }
+
+  .footer-two{
+      font-size: 14px;
+  }
+
+  .center-img img{
+      margin-top: 74px;
+  }
+
+  .offer-main{
+      
+  width: 100%;
+  height: 285vh;
+
+  }
+
+  .nav-btn .he-btn{
+      display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .nav-btn .he-btn{
+      display: none;
+  }
+
+  .dropdown:hover .dropdown-menu{
+      display: none;
+  }
+
+}
